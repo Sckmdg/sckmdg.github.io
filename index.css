@@ -1,0 +1,106 @@
+body {
+    font-family: 'Andika', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: greenyellow;
+}
+
+h2, h3 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: url("background.jpeg") center center;
+    background-size: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.7);
+}
+
+.photo-products {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-products__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 0 30%;
+}
+
+.photo-products__item h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.photo-products__item img {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    border-bottom: 1px solid white;
+}
+
+.product {
+    padding: 15px;
+}
+
+.product-item__container {
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item__container .product__item {
+    flex: 0 45%;
+}
+
+.product__item {
+    margin-bottom: 25px;
+}
+
+.product__item .title {
+    text-align: center;
+}
+
+.product__item .description {
+    text-align: left;
+}
+
+.contacts {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+}
+
