@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Andika&display=swap" rel="stylesheet">
-    <title>Сайт</title>
+    <title>Живая-Зелень</title>
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href=""/>
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href=""/>
@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href=" "/>
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:text:title" content="сайт"/>
+    <meta name="twitter:text:title" content="Живая-Зелнь"/>
     <meta name="twitter:title" content="домен"/>
     <meta name="twitter:image:width" content="147">
     <meta name="twitter:image:height" content="147">
@@ -24,7 +24,7 @@
     <meta name="og:image" content=""/>
     <meta name="og:image:type" content="png"/>
 
-    <meta name="og:title" content="тайтл"/>
+    <meta name="og:title" content="Живая-Зелнь"/>
     <meta name="og:description" content="текст"/>
     <meta name="og:url" content="ссылка на сайт"/>
 
@@ -33,104 +33,63 @@
 <body>
 <div class="background"></div>
 <div class="container">
-    <div class="product">
-        <h2 class="main-title">О продукции</h2>
+    <div class="header">
+        <a href="#main" class="header--item">Главная</a>
+        <a href="#assortiment" class="header--item">Ассортимент</a>
+        <a href="#partners" class="header--item">Партнерам</a>
+        <a href="#contacts" class="header--item">Контакты</a>
+    </div>
 
-        <div class="product-item__container">
-            <div class="product__item">
-                <h3 class="title">Спельта</h3>
-                <p class="description">Новая зелень из органической пшеницы для салатов и смузи</p>
-            </div>
-            <div class="product__item">
+    <div id="main" class="product">
+        <h2>ЖИВАЯ-ЗЕЛЕНЬ.РФ</h2>
+        <h3 class="main-title">производство экологически чистой грунтовой зелени</h3>
+
+        <div class="photo-products">
+            <div class="photo-products__item">
                 <h3 class="title">Свежая</h3>
+                <img src="fresh.jpg" alt="">
                 <p class="description">Продается в живом, растущем виде для срезки перед употреблением</p>
             </div>
-            <div class="product__item">
-                <h3 class="title">Натуральная</h3>
-                <p class="description">Выращена грунтовым способом без применения гидропоники, пестицидов и
-                    химикатов</p>
-            </div>
-            <div class="product__item">
+
+            <div class="photo-products__item">
                 <h3 class="title">Полезная</h3>
-                <p class="description">Содержит природные витамины, минералы, аминокислоты и фитонциды</p>
+                <img src="poleznaia.jpg" alt="">
+                <p class="description">Выращена грунтовым способом без применения гидропоники, пестицидов и химикатов</p>
+            </div>
+
+            <div class="photo-products__item">
+                <h3 class="title">Натуральная</h3>
+                <img src="natural.jpg" alt="">
+                <p class="description">Содержит природные витамины, минералы, аминокислоты и фитонциды </p>
             </div>
         </div>
     </div>
 
-    <div class="product">
-        <h2 class="main-title">Преимущества</h2>
-
-        <div class="product-item__container">
-            <div class="product__item">
-                <h3 class="title">Очищение</h3>
-                <p class="description">Очищает кишечник, выводит токсины и вредный холестерин из организма</p>
-            </div>
-            <div class="product__item">
-                <h3 class="title">Питание</h3>
-                <p class="description">Питает организм полезными витаминами, минералами и аминокислотами</p>
-            </div>
-            <div class="product__item">
-                <h3 class="title">Оздоровление</h3>
-                <p class="description">Поднимает иммунитет и активирует жизненные функции организма</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="product">
-        <h2 class="main-title">Ассортимент</h2>
-
+    <div id="assortiment" class="product">
         <div class="photo-products">
             <div class="photo-products__item">
-                <h3 class="title">Спельта редис</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Живой микс из ростков органической пшеницы</p>
-                <p class="description">Состав: спельта, подсолнух, редис</p>
+                <h3 class="title">Ростки Микс</h3>
+                <img src="fresh.jpg" alt="">
+                <p class="description">Миксы из ростков различных культур для приготовления салатов и смузи</p>
             </div>
 
             <div class="photo-products__item">
-                <h3 class="title">Спельта брокколи</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Спельта брокколи</p>
-                <p class="description">Состав: спельта, подсолнух, брокколи</p>
+                <h3 class="title">Ростки Моно </h3>
+                <img src="poleznaia.jpg" alt="">
+                <p class="description">Крупнейший ассортимент ростков различных культур на любой вкус</p>
             </div>
 
             <div class="photo-products__item">
-                <h3 class="title">Спельта кресс</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Живой микс из ростков органической пшеницы</p>
-                <p class="description">Состав: спельта, подсолнух, кресс</p>
+                <h3 class="title">Ростки Айс</h3>
+                <img src="natural.jpg" alt="">
+                <p class="description">Свежевыжатый сок витграсса в замороженных кубиках с различным вкусом</p>
             </div>
+
+            <h2><a href="#">ПРАЙС-ЛИСТ</a></h2>
         </div>
     </div>
 
-    <div class="product">
-        <h2 class="main-title">Варианты рецептов </h2>
-
-        <div class="photo-products">
-            <div class="photo-products__item">
-                <h3 class="title">Название рецепта</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Описание рецепта</p>
-                <p class="description">кратко</p>
-            </div>
-
-            <div class="photo-products__item">
-                <h3 class="title">Название рецепта</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Описание рецепта</p>
-                <p class="description">кратко</p>
-            </div>
-
-            <div class="photo-products__item">
-                <h3 class="title">Название рецепта</h3>
-                <img src="https://freshpot.ru/img/10749166_1920.jpg" alt="">
-                <p class="description">Описание рецепта</p>
-                <p class="description">кратко</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="product">
+    <div id="partners" class="product">
         <h2 class="main-title">Оптовикам</h2>
 
         <div class="product-item__container">
@@ -154,7 +113,7 @@
         </div>
     </div>
 
-    <footer>
+    <div id="contacts" class="product">
         <h2 class="main-title">Контакты</h2>
         <div class="product">
             <iframe src="https://yandex.ru/map-widget/v1/-/CGwIQE0V" width="100%" height="400px" frameborder="1" allowfullscreen="true"></iframe>
@@ -165,7 +124,29 @@
             <p>Электронная почта: <a href="mailto:info@info.ru">info@info.ru</a></p>
             <p>Адрес: Территория Российской Академии Наук, ул. Бардина, дом 4</p>
         </div>
-    </footer>
+    </div>
 </div>
+
+<script>
+    if (document.location.hash){
+        var id = document.location.hash.substr(1);
+        document.getElementById(id).className = 'product product--active';
+    }
+    else {
+        document.getElementsByClassName("product")[0].className = 'product product--active';
+    }
+
+    var anchors = document.getElementsByClassName("header--item");
+    function changeActive(event) {
+        var id = event.target.hash.substr(1);
+        document.getElementsByClassName("product--active")[0].className = 'product';
+        document.getElementById(id).className = 'product product--active';
+    }
+
+    for(var i = 0; i < anchors.length; i++) {
+        var anchor = anchors[i];
+        anchor.onclick = changeActive;
+    }
+</script>
 </body>
 </html>
