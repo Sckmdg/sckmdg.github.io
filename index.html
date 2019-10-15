@@ -32,14 +32,13 @@
 </head>
 <body>
 <div class="background"></div>
-<div class="container">
-    <div class="header">
-        <a href="#main" class="header--item">Главная</a>
-        <a href="#assortiment" class="header--item">Ассортимент</a>
-        <a href="#partners" class="header--item">Партнерам</a>
-        <a href="#contacts" class="header--item">Контакты</a>
-    </div>
-
+<div class="header">
+    <a href="#main" class="header--item">Главная</a>
+    <a href="#assortiment" class="header--item">Ассортимент</a>
+    <a href="#partners" class="header--item">Партнерам</a>
+    <a href="#contacts" class="header--item">Контакты</a>
+</div>
+<div class="container" id="container">
     <div id="main" class="product">
         <h2>ЖИВАЯ-ЗЕЛЕНЬ.РФ</h2>
         <h3 class="main-title">производство экологически чистой грунтовой зелени</h3>
@@ -76,7 +75,9 @@
             <div class="photo-products__item">
                 <h3 class="title">Ростки Моно </h3>
                 <img src="poleznaia.jpg" alt="">
-                <p class="description">Крупнейший ассортимент ростков различных культур на любой вкус</p>
+                <p class="description">Крупнейший ассортимент
+                    ростков различных культур
+                    на любой вкус</p>
             </div>
 
             <div class="photo-products__item">
@@ -85,15 +86,16 @@
                 <p class="description">Свежевыжатый сок витграсса в замороженных кубиках с различным вкусом</p>
             </div>
 
+        </div>
+
+        <div class="product">
             <h2><a href="#">ПРАЙС-ЛИСТ</a></h2>
         </div>
-    </div>
 
-    <div id="partners" class="product">
-        <h2 class="main-title">Оптовикам</h2>
+        <div id="partners" class="product">
+            <h2 class="main-title">Оптовикам</h2>
 
-        <div class="product-item__container">
-            <div class="product__item">
+         <div class="product__item">
                 <h3 class="title">Свежесть</h3>
                 <p class="description">Производим отгрузку и доставку свежей грунтовой зелени каждый день</p>
             </div>
@@ -128,25 +130,7 @@
 </div>
 
 <script>
-    if (document.location.hash){
-        var id = document.location.hash.substr(1);
-        document.getElementById(id).className = 'product product--active';
-    }
-    else {
-        document.getElementsByClassName("product")[0].className = 'product product--active';
-    }
-
-    var anchors = document.getElementsByClassName("header--item");
-    function changeActive(event) {
-        var id = event.target.hash.substr(1);
-        document.getElementsByClassName("product--active")[0].className = 'product';
-        document.getElementById(id).className = 'product product--active';
-    }
-
-    for(var i = 0; i < anchors.length; i++) {
-        var anchor = anchors[i];
-        anchor.onclick = changeActive;
-    }
+    document.getElementById('container').style.height = window.innerHeight - 110 + 'px';
 </script>
 </body>
 </html>
