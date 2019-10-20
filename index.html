@@ -51,15 +51,15 @@
             </div>
 
             <div class="photo-products__item">
-                <h3 class="title">Полезная</h3>
-                <img src="poleznaia.jpg" alt="">
-                <p class="description">Выращена грунтовым способом без применения гидропоники, пестицидов и химикатов</p>
-            </div>
-
-            <div class="photo-products__item">
                 <h3 class="title">Натуральная</h3>
                 <img src="natural.jpg" alt="">
                 <p class="description">Содержит природные витамины, минералы, аминокислоты и фитонциды </p>
+            </div>
+
+            <div class="photo-products__item">
+                <h3 class="title">Полезная</h3>
+                <img src="poleznaia.jpg" alt="">
+                <p class="description">Выращена грунтовым способом без применения гидропоники, пестицидов и химикатов</p>
             </div>
         </div>
     </div>
@@ -95,7 +95,7 @@
         <div id="partners" class="product">
             <h2 class="main-title">Оптовикам</h2>
 
-         <div class="product__item">
+         <div class="product__item" style="margin-top: 25px;">
                 <h3 class="title">Свежесть</h3>
                 <p class="description">Производим отгрузку и доставку свежей грунтовой зелени каждый день</p>
             </div>
@@ -130,7 +130,9 @@
 </div>
 
 <script>
-    document.getElementById('container').style.height = window.innerHeight - 110 + 'px';
+    if (window.innerWidth > 812) {
+        document.getElementById('container').style.height = window.innerHeight - 110 + 'px';
+    }
 </script>
 </body>
 </html>
