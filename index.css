@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color: greenyellow;
+    color: #17de71;
 }
 
 h2, h3 {
@@ -20,6 +20,10 @@ h2 {
 
 h3 {
     font-size: 25px;
+}
+
+#title {
+    color: #17de71;
 }
 
 .background {
