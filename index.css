@@ -161,6 +161,10 @@ h3 {
 
 .contacts p {
     margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .contacts a {
