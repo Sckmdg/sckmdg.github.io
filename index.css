@@ -153,7 +153,20 @@ h3 {
     max-width: 50%;
     width: 100%;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacts p {
+    margin-bottom: 0;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* width */
