@@ -81,8 +81,8 @@ h3 {
 
 .photo-products__item {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex: 0 30%;
     width: 100%;
