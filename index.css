@@ -76,7 +76,7 @@ h3 {
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 30px
+    padding-top: 45px
 }
 
 .photo-products__item {
@@ -95,8 +95,8 @@ h3 {
 }
 
 .photo-products__item .img-container {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin: 0 auto;
     display: inline-block;
@@ -107,7 +107,7 @@ h3 {
 .photo-products__item img {
     width: auto;
     height: 100%;
-    margin-left: -35px;
+    margin-left: -75px;
 }
 
 .photo-products__item .description {
@@ -121,7 +121,7 @@ h3 {
 }
 
 .product {
-    padding: 15px;
+    padding: 30px 15px;
     transition: all .2s ease;
 }
 
