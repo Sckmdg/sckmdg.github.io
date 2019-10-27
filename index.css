@@ -121,7 +121,7 @@ h3 {
 }
 
 .product {
-    padding: 30px 15px;
+    padding: 45px 15px;
     transition: all .2s ease;
 }
 
@@ -195,6 +195,19 @@ h3 {
 
 #partners .product__item .description {
     text-align: center;
+}
+
+#assortiment {
+    img:nth-child(1) {
+        margin-left: -50px;
+        margin-top: -30px;
+    }
+    img:nth-child(2) {
+        margin-left: -50px;
+    }
+    img:nth-child(3) {
+        margin-left: -60px;
+    }
 }
 
 @media screen and (max-width: 812px) {
