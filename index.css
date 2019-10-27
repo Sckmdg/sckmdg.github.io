@@ -241,5 +241,18 @@ h3 {
     .photo-products__item img {
         margin-left: -18px;
     }
+    
+    #first-product {
+      margin-left: -17px;
+      margin-top: -15px;
+    }
+
+    #second-product {
+       margin-left: -18px;
+    }
+
+    #third-product {
+      margin-left: -20px;
+    }
 }
 
